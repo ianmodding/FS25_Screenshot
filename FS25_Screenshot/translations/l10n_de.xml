@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+    <texts>
+        <text name="input_FS25_SCREENSHOT_MODE" text="Fotomodus öffnen"/>
+        <text name="input_FS25_SCREENSHOT_COLORS" text="Farbregler ein-/ausblenden"/>
+        <text name="input_FS25_SCREENSHOT_DOF" text="Tiefenschärferegler ein-/ausblenden"/>
+        <text name="input_FS25_SCREENSHOT_ZOOM_RESET" text="Kamerazoom zurücksetzen"/>
+        <text name="FS25_SCREENSHOT_TITLE" text="Fotomodus"/>
+        <text name="FS25_SCREENSHOT_HELP" text="Bewegen: W/A/S/D, Q/E. Drehen: ziehen oder Pfeiltasten. Zoom: Mausrad (0 setzt zurück). Tempo unten; Farb- und Fokusregler über die Knöpfe."/>
+        <text name="FS25_SCREENSHOT_EXIT" text="Schließen"/>
+        <text name="FS25_SCREENSHOT_CAPTURE" text="Foto aufnehmen"/>
+        <text name="FS25_SCREENSHOT_WEATHER" text="Wetter"/>
+        <text name="FS25_SCREENSHOT_SEASON_PERIOD" text="Jahreszeitenabschnitt"/>
+        <text name="FS25_SCREENSHOT_WEATHER_SUN" text="Sonnig"/>
+        <text name="FS25_SCREENSHOT_WEATHER_RAIN" text="Regen"/>
+        <text name="FS25_SCREENSHOT_WEATHER_CLOUDY" text="Bewölkt"/>
+        <text name="FS25_SCREENSHOT_WEATHER_HAIL" text="Hagel"/>
+        <text name="FS25_SCREENSHOT_TIME" text="Tageszeit"/>
+        <text name="FS25_SCREENSHOT_CAMERA_SPEED" text="Kamerageschwindigkeit"/>
+        <text name="FS25_SCREENSHOT_HIDE_UI" text="Benutzeroberfläche im Screenshot ausblenden"/>
+        <text name="FS25_SCREENSHOT_VEHICLE_TITLE" text="Fahrzeug"/>
+        <text name="FS25_SCREENSHOT_VEHICLE_CHARACTER" text="Fahrzeugcharakter"/>
+        <text name="FS25_SCREENSHOT_BEACON_LIGHTS" text="Rundumleuchten"/>
+        <text name="FS25_SCREENSHOT_DEFAULT_LIGHTS" text="Fahrlicht"/>
+        <text name="FS25_SCREENSHOT_HIGH_BEAM_LIGHTS" text="Fernlicht"/>
+        <text name="FS25_SCREENSHOT_FRONT_LIGHTS" text="Vordere Arbeitsscheinwerfer"/>
+        <text name="FS25_SCREENSHOT_BACK_LIGHTS" text="Hintere Arbeitsscheinwerfer"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_SPRING" text="Früher Frühling"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_SPRING" text="Mittlerer Frühling"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_SPRING" text="Später Frühling"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_SUMMER" text="Früher Sommer"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_SUMMER" text="Mittlerer Sommer"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_SUMMER" text="Später Sommer"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_AUTUMN" text="Früher Herbst"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_AUTUMN" text="Mittlerer Herbst"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_AUTUMN" text="Später Herbst"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_WINTER" text="Früher Winter"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_WINTER" text="Mittlerer Winter"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_WINTER" text="Später Winter"/>
+        <text name="FS25_SCREENSHOT_MP_WARNING" text="Jahreszeitenabschnitt, Wetter und Tageszeit können nur im Einzelspielermodus geändert werden."/>
+        <text name="FS25_SCREENSHOT_BACKUP_WARNING" text="Umgebung konnte nicht gespeichert werden; Änderungen sind deaktiviert."/>
+        <text name="FS25_SCREENSHOT_COLOR_BUTTON" text="Farben"/>
+        <text name="FS25_SCREENSHOT_COLOR_TITLE" text="Farbeinstellungen"/>
+        <text name="FS25_SCREENSHOT_COLOR_HELP" text="Regler ziehen. Änderungen werden beim Schließen zurückgesetzt."/>
+        <text name="FS25_SCREENSHOT_COLOR_RESET" text="Standardwerte wiederherstellen"/>
+        <text name="FS25_SCREENSHOT_COLOR_WARNING" text="Farbeinstellungen sind auf dieser Karte nicht verfügbar."/>
+        <text name="FS25_SCREENSHOT_DOF_BUTTON" text="Fokus"/>
+        <text name="FS25_SCREENSHOT_DOF_TITLE" text="Tiefenschärfe"/>
+        <text name="FS25_SCREENSHOT_DOF_HELP" text="Fokus und Unschärfe einstellen. Stärke 0 deaktiviert den Effekt."/>
+        <text name="FS25_SCREENSHOT_DOF_FOCUS" text="Fokusabstand"/>
+        <text name="FS25_SCREENSHOT_DOF_STRENGTH" text="Unschärfestärke"/>
+        <text name="FS25_SCREENSHOT_DOF_RESET" text="Deaktivieren"/>
+        <text name="FS25_SCREENSHOT_DOF_WARNING" text="Tiefenschärfe ist in dieser Spielversion nicht verfügbar."/>
+        <text name="FS25_SCREENSHOT_COLOR_CONTRAST" text="Kontrast - Tag und Nacht"/>
+        <text name="FS25_SCREENSHOT_COLOR_BRIGHTNESS_DAY" text="Helligkeit - Tag"/>
+        <text name="FS25_SCREENSHOT_COLOR_BRIGHTNESS_NIGHT" text="Helligkeit - Nacht"/>
+        <text name="FS25_SCREENSHOT_COLOR_SATURATION_DAY" text="Sättigung - Tag"/>
+        <text name="FS25_SCREENSHOT_COLOR_SATURATION_NIGHT" text="Sättigung - Nacht"/>
+        <text name="FS25_SCREENSHOT_COLOR_TEMPERATURE_DAY" text="Farbtemperatur - Tag"/>
+        <text name="FS25_SCREENSHOT_COLOR_TEMPERATURE_NIGHT" text="Farbtemperatur - Nacht"/>
+        <text name="FS25_SCREENSHOT_COLOR_GAMMA_DAY" text="Gamma - Tag"/>
+        <text name="FS25_SCREENSHOT_COLOR_GAMMA_NIGHT" text="Gamma - Nacht"/>
+        <text name="FS25_SCREENSHOT_COLOR_SHADOWS_DAY" text="Schattenhelligkeit - Tag"/>
+    </texts>
+</l10n>

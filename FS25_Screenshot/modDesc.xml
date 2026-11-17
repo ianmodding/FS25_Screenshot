@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc descVersion="116">
+    <author>ian</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Photo Mode</en>
+        <br>Modo Foto</br>
+        <de>Foto Modus</de>
+    </title>
+    <description>
+        <en>
+<![CDATA[
+Create screenshots in Farming Simulator 25 with a free camera and photo controls.
+
+Feature overview:
+- Freely move and rotate the camera
+- Zoom in and out with the mouse wheel
+- Choose the camera movement speed
+- Choose the season period, weather, and time of day
+- Adjust focus distance and blur strength with depth of field
+- Adjust color grading while composing a shot
+- Control vehicle character visibility and lights
+- Choose whether the photo includes the interface
+- Capture screenshots directly from photo mode
+
+Controls:
+- Open Photo Mode: Right Ctrl + P
+- Move: W-A-S-D and Q-E
+- Rotate: drag with the left mouse button or use the arrow keys
+- Zoom: mouse wheel
+- Reset zoom: 0
+- Toggle color controls: C
+- Toggle depth-of-field controls: V
+- Capture: Enter or the Take Screenshot button
+- Change the key bindings in the game controls settings
+
+Environment and vehicle changes are restored when Photo Mode closes. Environment and vehicle controls are disabled in multiplayer.
+]]>
+        </en>
+        <br>
+<![CDATA[
+Crie screenshots no Farming Simulator 25 usando uma câmera livre e controles de fotografia.
+
+Recursos:
+- Mova e gire a câmera livremente
+- Aproxime ou afaste usando a roda do mouse
+- Escolha a velocidade de movimento da câmera
+- Escolha o período da estação, o clima e o horário
+- Ajuste a distância de foco e a intensidade do desfoque
+- Ajuste as cores enquanto prepara a captura
+- Controle a visibilidade do personagem e as luzes do veículo
+- Escolha se a interface aparece na imagem
+- Tire screenshots diretamente no modo foto
+
+Controles:
+- Abrir o modo foto: Ctrl direito + P
+- Mover: W-A-S-D e Q-E
+- Girar: arraste com o botão esquerdo do mouse ou use as setas
+- Zoom: roda do mouse
+- Restaurar zoom: 0
+- Mostrar ou ocultar os controles de cor: C
+- Mostrar ou ocultar os controles de foco: V
+- Capturar: Enter ou botão Tirar foto
+- Altere os atalhos nas configurações de controles do jogo
+
+As alterações do ambiente e do veículo são restauradas ao fechar o modo foto. Os controles de ambiente e veículo ficam desativados no multiplayer.
+]]>
+        </br>
+        <de>
+<![CDATA[
+Erstelle Screenshots in Farming Simulator 25 mit einer freien Kamera und praktischen Fotofunktionen.
+
+Funktionsübersicht:
+- Bewege und drehe die Kamera frei
+- Zoome mit dem Mausrad heran und heraus
+- Wähle die Bewegungsgeschwindigkeit der Kamera
+- Wähle Jahreszeitenabschnitt, Wetter und Tageszeit
+- Stelle Fokusabstand und Unschärfestärke der Tiefenschärfe ein
+- Passe die Farbkorrektur während der Bildgestaltung an
+- Steuere die Sichtbarkeit des Fahrzeugcharakters und die Fahrzeugbeleuchtung
+- Lege fest, ob die Benutzeroberfläche im Screenshot erscheint
+- Nimm Screenshots direkt im Fotomodus auf
+
+Steuerung:
+- Fotomodus öffnen: rechte Strg-Taste + P
+- Bewegen: W-A-S-D und Q-E
+- Drehen: mit gedrückter linker Maustaste ziehen oder die Pfeiltasten verwenden
+- Zoom: Mausrad
+- Zoom zurücksetzen: 0
+- Farbregler ein- oder ausblenden: C
+- Tiefenschärferegler ein- oder ausblenden: V
+- Screenshot aufnehmen: Eingabetaste oder die Schaltfläche „Foto aufnehmen“
+- Tastenbelegung in den Steuerungseinstellungen des Spiels ändern
+
+Änderungen an Umgebung und Fahrzeug werden beim Schließen des Fotomodus zurückgesetzt. Die Steuerung von Umgebung und Fahrzeug ist im Mehrspielermodus deaktiviert.
+]]>
+        </de>
+    </description>
+    <iconFilename>icon_screenshot.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <l10n filenamePrefix="translations/l10n" defaultLanguage="en"/>
+    <extraSourceFiles>
+        <sourceFile filename="ScreenshotColorAdjustment.lua"/>
+        <sourceFile filename="ScreenshotModeOverlay.lua"/>
+        <sourceFile filename="main.lua"/>
+    </extraSourceFiles>
+    <actions>
+        <action name="FS25_SCREENSHOT_MODE"/>
+        <action name="FS25_SCREENSHOT_COLORS"/>
+        <action name="FS25_SCREENSHOT_DOF"/>
+        <action name="FS25_SCREENSHOT_ZOOM_RESET"/>
+    </actions>
+    <inputBinding>
+        <actionBinding action="FS25_SCREENSHOT_MODE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_rctrl KEY_p"/>
+        </actionBinding>
+        <actionBinding action="FS25_SCREENSHOT_COLORS">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_c"/>
+        </actionBinding>
+        <actionBinding action="FS25_SCREENSHOT_DOF">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_v"/>
+        </actionBinding>
+        <actionBinding action="FS25_SCREENSHOT_ZOOM_RESET">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_0"/>
+        </actionBinding>
+    </inputBinding>
+</modDesc>

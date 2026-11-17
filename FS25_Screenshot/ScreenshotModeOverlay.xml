@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GUI onOpen="onOpen" onClose="onClose">
+    <Bitmap profile="fs25Screenshot_panel" id="panel">
+        <BoxLayout profile="fs25Screenshot_content" id="content">
+            <Text profile="fs25Screenshot_title" text="$l10n_FS25_SCREENSHOT_TITLE"/>
+            <Text profile="fs25Screenshot_help" text="$l10n_FS25_SCREENSHOT_HELP"/>
+            <Text profile="fs25Screenshot_warning" id="multiplayerWarning" text="$l10n_FS25_SCREENSHOT_MP_WARNING"/>
+            <Text profile="fs25Screenshot_warning" id="backupWarning" text="$l10n_FS25_SCREENSHOT_BACKUP_WARNING"/>
+            <Text profile="fs25Screenshot_warning" id="colorWarning" text="$l10n_FS25_SCREENSHOT_COLOR_WARNING"/>
+            <Text profile="fs25Screenshot_warning" id="depthOfFieldWarning" text="$l10n_FS25_SCREENSHOT_DOF_WARNING"/>
+
+            <GuiElement profile="fs25Screenshot_filterContainer">
+                <MultiTextOption profile="fs25Screenshot_multiTextOption" id="seasonPeriod" onClick="onSeasonPeriodChanged"/>
+                <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_SEASON_PERIOD"/>
+            </GuiElement>
+
+            <GuiElement profile="fs25Screenshot_filterContainer">
+                <MultiTextOption profile="fs25Screenshot_multiTextOption" id="weather" onClick="onWeatherChanged"/>
+                <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_WEATHER"/>
+            </GuiElement>
+
+            <GuiElement profile="fs25Screenshot_filterContainer">
+                <MultiTextOption profile="fs25Screenshot_multiTextOption" id="dayTime" onClick="onDayTimeChanged"/>
+                <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_TIME"/>
+            </GuiElement>
+
+            <GuiElement profile="fs25Screenshot_filterContainer">
+                <MultiTextOption profile="fs25Screenshot_multiTextOption" id="cameraSpeed" onClick="onCameraSpeedChanged"/>
+                <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_CAMERA_SPEED"/>
+            </GuiElement>
+
+            <GuiElement profile="fs25Screenshot_filterContainer">
+                <BinaryOption profile="fs25Screenshot_binaryOption" id="hideScreenshotUi" onClick="onClickHideScreenshotUi"/>
+                <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_HIDE_UI"/>
+            </GuiElement>
+
+            <BoxLayout profile="fs25Screenshot_vehicleCategory" id="vehicleCategory">
+                <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_VEHICLE_TITLE"/>
+
+                <GuiElement profile="fs25Screenshot_filterContainer">
+                    <BinaryOption profile="fs25Screenshot_binaryOption" id="vehicleCharacter" onClick="onClickVehicleCharacter"/>
+                    <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_VEHICLE_CHARACTER"/>
+                </GuiElement>
+                <GuiElement profile="fs25Screenshot_filterContainer">
+                    <BinaryOption profile="fs25Screenshot_binaryOption" id="beaconLights" onClick="onClickBeaconLights"/>
+                    <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_BEACON_LIGHTS"/>
+                </GuiElement>
+                <GuiElement profile="fs25Screenshot_filterContainer">
+                    <BinaryOption profile="fs25Screenshot_binaryOption" id="defaultLights" onClick="onClickDefaultLights"/>
+                    <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_DEFAULT_LIGHTS"/>
+                </GuiElement>
+                <GuiElement profile="fs25Screenshot_filterContainer">
+                    <BinaryOption profile="fs25Screenshot_binaryOption" id="highBeamLights" onClick="onClickHighBeamLights"/>
+                    <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_HIGH_BEAM_LIGHTS"/>
+                </GuiElement>
+                <GuiElement profile="fs25Screenshot_filterContainer">
+                    <BinaryOption profile="fs25Screenshot_binaryOption" id="frontLights" onClick="onClickFrontLights"/>
+                    <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_FRONT_LIGHTS"/>
+                </GuiElement>
+                <GuiElement profile="fs25Screenshot_filterContainer">
+                    <BinaryOption profile="fs25Screenshot_binaryOption" id="backLights" onClick="onClickBackLights"/>
+                    <Text profile="fs25Screenshot_filterTitle" text="$l10n_FS25_SCREENSHOT_BACK_LIGHTS"/>
+                </GuiElement>
+            </BoxLayout>
+        </BoxLayout>
+    </Bitmap>
+
+    <BoxLayout profile="fs25_buttonBox">
+        <Button profile="buttonBack" onClick="onClickBack" text="$l10n_FS25_SCREENSHOT_EXIT"/>
+        <Button profile="buttonBack" inputAction="FS25_SCREENSHOT_COLORS" onClick="onClickColors" text="$l10n_FS25_SCREENSHOT_COLOR_BUTTON"/>
+        <Button profile="buttonBack" inputAction="FS25_SCREENSHOT_DOF" id="depthOfFieldButton" onClick="onClickDepthOfField" text="$l10n_FS25_SCREENSHOT_DOF_BUTTON"/>
+        <Button profile="buttonOK" onClick="onClickCapture" text="$l10n_FS25_SCREENSHOT_CAPTURE"/>
+    </BoxLayout>
+
+    <GUIProfiles>
+        <Profile name="fs25Screenshot_panel" extends="baseReference" with="anchorStretchingYLeft">
+            <width value="380px"/>
+            <imageColor value="0.0 0.0 0.0 0.85"/>
+        </Profile>
+        <Profile name="fs25Screenshot_content" extends="emptyPanel" with="anchorStretchingYLeft">
+            <width value="340px"/>
+            <position value="24px -30px"/>
+            <flowDirection value="vertical"/>
+        </Profile>
+        <Profile name="fs25Screenshot_title" extends="fs25_textDefault" with="anchorTopStretchingX">
+            <width value="100%"/>
+            <height value="38px"/>
+            <textSize value="20px"/>
+            <textBold value="true"/>
+            <textUpperCase value="true"/>
+        </Profile>
+        <Profile name="fs25Screenshot_help" extends="fs25_textDefault" with="anchorTopStretchingX">
+            <width value="100%"/>
+            <height value="66px"/>
+            <textSize value="15px"/>
+            <textMaxNumLines value="3"/>
+        </Profile>
+        <Profile name="fs25Screenshot_warning" extends="fs25_textDefault" with="anchorTopStretchingX">
+            <width value="100%"/>
+            <height value="42px"/>
+            <textSize value="14px"/>
+            <textMaxNumLines value="2"/>
+            <textColor value="$preset_fs25_colorOrangeDark"/>
+        </Profile>
+        <Profile name="fs25Screenshot_filterContainer" extends="emptyPanel" with="anchorTopStretchingX">
+            <height value="60px"/>
+            <margin value="0px 0px 0px 18px"/>
+        </Profile>
+        <Profile name="fs25Screenshot_vehicleCategory" extends="emptyPanel" with="anchorTopStretchingX">
+            <width value="100%"/>
+            <flowDirection value="vertical"/>
+        </Profile>
+        <Profile name="fs25Screenshot_binaryOption" extends="fs25_binaryOption" with="anchorBottomStretchingX">
+            <width value="100%"/>
+            <useYesNoTexts value="true"/>
+        </Profile>
+        <Profile name="fs25Screenshot_multiTextOption" extends="fs25_multiTextOption" with="anchorBottomStretchingX">
+            <width value="100%"/>
+        </Profile>
+        <Profile name="fs25Screenshot_filterTitle" extends="fs25_textDefault" with="anchorTopStretchingX">
+            <width value="100%"/>
+            <textSize value="14px"/>
+            <textBold value="true"/>
+            <textUpperCase value="true"/>
+        </Profile>
+    </GUIProfiles>
+</GUI>

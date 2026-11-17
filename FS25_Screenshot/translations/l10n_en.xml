@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<l10n>
+    <texts>
+        <text name="input_FS25_SCREENSHOT_MODE" text="Open Photo Mode"/>
+        <text name="input_FS25_SCREENSHOT_COLORS" text="Toggle color controls"/>
+        <text name="input_FS25_SCREENSHOT_DOF" text="Toggle depth-of-field controls"/>
+        <text name="input_FS25_SCREENSHOT_ZOOM_RESET" text="Reset camera zoom"/>
+        <text name="FS25_SCREENSHOT_TITLE" text="Photo Mode"/>
+        <text name="FS25_SCREENSHOT_HELP" text="Move: W/A/S/D, Q/E. Rotate: drag or arrows. Zoom: wheel (0 resets). Adjust speed below; color and focus controls are on the buttons."/>
+        <text name="FS25_SCREENSHOT_EXIT" text="Close"/>
+        <text name="FS25_SCREENSHOT_CAPTURE" text="Take Screenshot"/>
+        <text name="FS25_SCREENSHOT_WEATHER" text="Weather"/>
+        <text name="FS25_SCREENSHOT_SEASON_PERIOD" text="Season period"/>
+        <text name="FS25_SCREENSHOT_WEATHER_SUN" text="Sunny"/>
+        <text name="FS25_SCREENSHOT_WEATHER_RAIN" text="Rain"/>
+        <text name="FS25_SCREENSHOT_WEATHER_CLOUDY" text="Cloudy"/>
+        <text name="FS25_SCREENSHOT_WEATHER_HAIL" text="Hail"/>
+        <text name="FS25_SCREENSHOT_TIME" text="Time"/>
+        <text name="FS25_SCREENSHOT_CAMERA_SPEED" text="Camera speed"/>
+        <text name="FS25_SCREENSHOT_HIDE_UI" text="Hide interface in screenshot"/>
+        <text name="FS25_SCREENSHOT_VEHICLE_TITLE" text="Vehicle"/>
+        <text name="FS25_SCREENSHOT_VEHICLE_CHARACTER" text="Vehicle character"/>
+        <text name="FS25_SCREENSHOT_BEACON_LIGHTS" text="Beacon lights"/>
+        <text name="FS25_SCREENSHOT_DEFAULT_LIGHTS" text="Main lights"/>
+        <text name="FS25_SCREENSHOT_HIGH_BEAM_LIGHTS" text="High beams"/>
+        <text name="FS25_SCREENSHOT_FRONT_LIGHTS" text="Front work lights"/>
+        <text name="FS25_SCREENSHOT_BACK_LIGHTS" text="Rear work lights"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_SPRING" text="Early spring"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_SPRING" text="Mid spring"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_SPRING" text="Late spring"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_SUMMER" text="Early summer"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_SUMMER" text="Mid summer"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_SUMMER" text="Late summer"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_AUTUMN" text="Early autumn"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_AUTUMN" text="Mid autumn"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_AUTUMN" text="Late autumn"/>
+        <text name="FS25_SCREENSHOT_SEASON_EARLY_WINTER" text="Early winter"/>
+        <text name="FS25_SCREENSHOT_SEASON_MID_WINTER" text="Mid winter"/>
+        <text name="FS25_SCREENSHOT_SEASON_LATE_WINTER" text="Late winter"/>
+        <text name="FS25_SCREENSHOT_MP_WARNING" text="Season, weather and time can only be changed in single-player."/>
+        <text name="FS25_SCREENSHOT_BACKUP_WARNING" text="Could not save the environment; changes are disabled."/>
+        <text name="FS25_SCREENSHOT_COLOR_BUTTON" text="Colors"/>
+        <text name="FS25_SCREENSHOT_COLOR_TITLE" text="Color adjustments"/>
+        <text name="FS25_SCREENSHOT_COLOR_HELP" text="Drag the sliders. Changes are restored when photo mode closes."/>
+        <text name="FS25_SCREENSHOT_COLOR_RESET" text="Restore defaults"/>
+        <text name="FS25_SCREENSHOT_COLOR_WARNING" text="Color adjustments are unavailable for this map."/>
+        <text name="FS25_SCREENSHOT_DOF_BUTTON" text="Focus"/>
+        <text name="FS25_SCREENSHOT_DOF_TITLE" text="Depth of field"/>
+        <text name="FS25_SCREENSHOT_DOF_HELP" text="Adjust focus and blur. Strength 0 disables the effect."/>
+        <text name="FS25_SCREENSHOT_DOF_FOCUS" text="Focus distance"/>
+        <text name="FS25_SCREENSHOT_DOF_STRENGTH" text="Blur strength"/>
+        <text name="FS25_SCREENSHOT_DOF_RESET" text="Disable"/>
+        <text name="FS25_SCREENSHOT_DOF_WARNING" text="Depth of field is unavailable in this game version."/>
+        <text name="FS25_SCREENSHOT_COLOR_CONTRAST" text="Contrast - day and night"/>
+        <text name="FS25_SCREENSHOT_COLOR_BRIGHTNESS_DAY" text="Brightness - day"/>
+        <text name="FS25_SCREENSHOT_COLOR_BRIGHTNESS_NIGHT" text="Brightness - night"/>
+        <text name="FS25_SCREENSHOT_COLOR_SATURATION_DAY" text="Saturation - day"/>
+        <text name="FS25_SCREENSHOT_COLOR_SATURATION_NIGHT" text="Saturation - night"/>
+        <text name="FS25_SCREENSHOT_COLOR_TEMPERATURE_DAY" text="Color temperature - day"/>
+        <text name="FS25_SCREENSHOT_COLOR_TEMPERATURE_NIGHT" text="Color temperature - night"/>
+        <text name="FS25_SCREENSHOT_COLOR_GAMMA_DAY" text="Gamma - day"/>
+        <text name="FS25_SCREENSHOT_COLOR_GAMMA_NIGHT" text="Gamma - night"/>
+        <text name="FS25_SCREENSHOT_COLOR_SHADOWS_DAY" text="Shadow brightness - day"/>
+    </texts>
+</l10n>
